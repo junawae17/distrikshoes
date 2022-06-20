@@ -1,0 +1,100 @@
+/*------------------------------------------------------------------
+
+Project:	Cleaning Services
+Version:	1.1
+Assigned to:	Alex Zaymund
+Primary use:	Cleaning Services
+
+
+[Table of contents]
+
+ - Responsive styles
+
+-------------------------------------------------------------------*/
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* RESPONSIVE CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media (min-width:1350px) {
+	
+}
+
+
+
+/* 768 x 1024 (Laptop) */
+
+@media (min-width:992px) and (max-width:1199px) {
+	
+}
+
+/* end min-width:992px and max-width:1199px */
+
+
+@media (max-width:1199px) {
+	
+}
+
+/* end max-width:1199px */
+
+
+/* 768 x 1024 (iPad - Portrait) */
+
+@media (max-width:991px) {
+	
+}
+
+/* end max-width:991px */
+
+
+@media (max-width:991px) and (min-width:768px) {
+
+	
+	
+}
+
+/* end max-width:991px and min-width:768px */
+
+
+/*480 x 640 (small tablet and iPhone)*/
+
+@media (max-width:767px) {
+
+}
+
+/* end max-width:767px */
+
+
+@media (max-width:767px) and (min-width:480px) {
+
+}
+
+/*320 x 480 (iPhone)*/
+
+@media (max-width:480px) {
+	.templateux-hero h1, .intro h1 {
+    	font-size: 17px;
+	}
+
+	.h3, h3 {
+    font-size: 12px;
+	}
+	.h4, h4 {
+    font-size: 12px;
+	}
+
+	.templateux-hero, .intro {
+   
+    min-height: auto;
+	}
+
+	.templateux-hero-new, .intro_new{
+		min-height: 750px;
+	}
+	span.words-1 {
+    font-size: 18px;
+	}
+}
